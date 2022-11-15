@@ -6,10 +6,13 @@ source .venv/bin/activate
 pip3 install -U pip
 
 pip install jupyterlab
-jupyter lab
 
 # Other installations
 pip install PyGithub
 pip install python-dotenv # Optional, for keeping access tokens out of the notebook
 pip install pandas
 pip install matplotlib
+pip install seaborn
+
+# Start 
+jupyter lab
